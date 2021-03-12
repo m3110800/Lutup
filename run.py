@@ -47,7 +47,7 @@ def telegram_bot (O0O0O0OOOOOOO0O00 ,O0O00O000000O0O00 ):#line:50
     O0OOO0000OOOO0OO0 =TG_BOT_TOKEN #line:52
     OOO000O00O00O000O =TG_USER_ID #line:53
     if "TG_BOT_TOKEN"in os .environ and "TG_USER_ID"in os .environ :#line:54
-        O0OOO0000OOOO0OO0 ='1698539466:AAG4K86swWWty6AxeHf58sifhfjXhusiqCM'#line:55
+        O0OOO0000OOOO0OO0 =os.environ["TG_BOT_TOKEN"]
         OOO000O00O00O000O =os .environ ["TG_USER_ID"]#line:56
     if not O0OOO0000OOOO0OO0 or not OOO000O00O00O000O :#line:57
         print ("Telegram推送的tg_bot_token或者tg_user_id未设置!!\n取消推送")#line:58
