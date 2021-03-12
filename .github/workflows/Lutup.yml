@@ -31,7 +31,7 @@ jobs:
         env:
           TG_USER_ID:  ${{secrets.TG_USER_ID}}    # tg通知id
           INVITECODE: ${{secrets.INVITECODE}}
-          TG_BOT_TOKEN:  ${{secrets.TG_BOT_TOKEN}}# tg通知id
+          TG_BOT_TOKEN:  ${{secrets.TG_BOT_TOKEN}}
           TOKEN: ${{secrets.TOKEN}}
           START: ${{secrets.START}}
           
